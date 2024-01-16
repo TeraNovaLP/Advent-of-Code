@@ -1,0 +1,29 @@
+{
+	"name": "PHP",
+	"image": "mcr.microsoft.com/devcontainers/php:1-8.3-bookworm",
+	"forwardPorts": [8080],
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "18",
+			"nvmVersion": "latest"
+		}
+	},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "bmewburn.vscode-intelephense-client",
+                "SonarSource.sonarlint-vscode"
+            ],
+            "settings": {
+                "editor.formatOnSave": true,
+                "editor.codeActionsOnSave": {
+                    "source.organizeImports": true
+                },
+                "[php]": {
+                    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+                }
+            }
+        }
+    }
+}
