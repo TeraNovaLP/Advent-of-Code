@@ -23,4 +23,4 @@ Change to the folder of the year and language (e.g. `2023/php`) and execute the 
 chmod +x start.sh && ./start.sh
 ```
 
-After that you can run the script in yout browser under the port 8080 (e. g. `http://localhost:8080/1/1.php`).
+After that you can run the scripts in yout browser under the port 8080 (e. g. `http://localhost:8080/1/1.php`).
